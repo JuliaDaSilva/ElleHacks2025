@@ -1,11 +1,3 @@
-/* Uploaded Custom Font (just for static page)*/
-@font-face {
-    font-family: 'ShortBread';
-    src: url('../../fonts/Shortbread.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'LondrinaSolid';
     src: url('../../fonts/LondrinaSolid-Regular.ttf') format('truetype');
