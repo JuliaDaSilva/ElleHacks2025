@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url('../../assets/test-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.static-page {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.static-page h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.static-page p {
+    margin-bottom: 10px;
+}
+
+
+
