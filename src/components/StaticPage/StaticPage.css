@@ -1,10 +1,61 @@
-body, html {
-    overflow: hidden;
+/* Uploaded Custom Font (just for static page)*/
+@font-face {
+    font-family: 'ShortBread';
+    src: url('../../fonts/Shortbread.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LondrinaSolid';
+    src: url('../../fonts/LondrinaSolid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    background-image: url('/src/assets/test-img.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden; /* Prevents Scrolling*/
 }
+
+/* Sponsor Us button*/
+.sponsorButton {
+    background-color: white;     
+    color: #899878;        
+    border: none;             
+    cursor: pointer;          
+
+    padding: 12px 24px;           
+    border-radius: 25px;   
+    font-size: 20px;     
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+    transition: background-color 0.3s, color 0.3s; 
+
+}
+
+/* Sponsor Us Button Hover Action*/
+.sponsorButton:hover {
+    background-color: #D8AA6C; 
+    color: #545353;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(216, 170, 108, 0.7); 
+}
+
+/* styles.css */
+@keyframes hoverUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px); 
+    }
+}
+
+.hover-up-down {
+    animation: hoverUpDown 2s ease-in-out infinite;
+}
+
+
