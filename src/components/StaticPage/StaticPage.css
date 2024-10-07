@@ -15,15 +15,11 @@ body {
     color: #899878;        
     border: none;             
     cursor: pointer;          
-
     padding: 12px 24px;           
     border-radius: 25px;   
     font-size: 20px;     
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-
     transition: background-color 0.3s, color 0.3s; 
-
 }
 
 /* Sponsor Us Button Hover Action*/
