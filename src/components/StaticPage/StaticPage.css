@@ -36,7 +36,7 @@ body {
     text-shadow: 2px 2px 4px rgba(216, 170, 108, 0.7); 
 }
 
-/* styles.css */
+/* Logo Animation */
 @keyframes hoverUpDown {
     0%, 100% {
         transform: translateY(0);
