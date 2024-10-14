@@ -10,7 +10,7 @@ const StaticPage = () => {
 
     return (
         <div className="h-screen flex flex-col items-center justify-center px-4 bg-[#EDDEC9]">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_500px_at_50%_200px,#899878,transparent)]"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(circle_600px_at_50%_200px,#899878,transparent)]"></div>
 
             {/* Logo Image */}
             <img
