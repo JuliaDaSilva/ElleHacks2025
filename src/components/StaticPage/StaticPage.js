@@ -16,7 +16,7 @@ const StaticPage = () => {
             <img
                 src={`${process.env.PUBLIC_URL}/ElleHacksLogo.png`}
                 alt="ElleHacks Logo"
-                className="w-1/3 sm:w-1/2 md:w-1/4 lg:w-1/6 h-auto mb-6 hover-up-down z-10"
+                className="w-1/2 sm:w-1/2 md:w-1/4 lg:w-1/6 h-auto mb-6 hover-up-down z-10"
             />
 
             {/* Main Title */}
