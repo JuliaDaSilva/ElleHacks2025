@@ -33,9 +33,7 @@ const StaticPage = () => {
             <button className="sponsorButton font-[LondrinaSolid] mb-10 md:mb-20 z-10" onClick={handleEmailClick}>
                 Interested in Sponsoring?
             </button>
-
         </div>
-
     );
 };
 
