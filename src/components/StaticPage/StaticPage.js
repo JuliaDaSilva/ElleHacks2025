@@ -16,11 +16,11 @@ const StaticPage = () => {
             <img
                 src={`${process.env.PUBLIC_URL}/ElleHacksLogo.png`}
                 alt="ElleHacks Logo"
-                className="w-3/5 md:w-1/4 lg:w-1/6 h-auto mb-6 hover-up-down z-10"
+                className="w-1/3 sm:w-1/2 md:w-1/4 lg:w-1/6 h-auto mb-6 hover-up-down z-10"
             />
 
             {/* Main Title */}
-            <h1 className="text-5xl sm:text-6xl md:text-9xl font-[LondrinaSolid] text-white text-shadow mb-2 z-10">
+            <h1 className="text-7xl sm:text-8xl md:text-9xl font-[LondrinaSolid] text-white text-shadow mb-2 z-10">
                 ElleHacks
             </h1>
 
