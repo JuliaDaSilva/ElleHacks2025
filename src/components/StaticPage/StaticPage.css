@@ -1,3 +1,4 @@
+/* Imported fonts */
 @font-face {
     font-family: 'LondrinaSolid';
     src: url('../../fonts/LondrinaSolid-Regular.ttf') format('truetype');
@@ -5,46 +6,59 @@
     font-style: normal;
 }
 
+/* Prevents scrolling */
 body {
-    overflow: hidden; /* Prevents Scrolling*/
+    overflow: hidden;
 }
 
-/* Sponsor Us button*/
+/* Sponsor Us button */
 .sponsorButton {
-    background-color: white;     
-    color: #899878;        
-    border: none;             
-    cursor: pointer;          
-    padding: 12px 24px;           
-    border-radius: 25px;   
-    font-size: 20px;     
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    transition: background-color 0.3s, color 0.3s; 
+    background-color: white;
+    color: #899878;
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Sponsor Us Button Hover Action*/
+/* Hover effects for sponsor us button */
 .sponsorButton:hover {
-    background-color: #D8AA6C; 
-    color: #545353;
+    background-color: #D8AA6C;
+    color: white;
+    transform: scale(1.05);
 }
 
-/* Text Yellow Shadow */
+/* Text shadow effect */
 .text-shadow {
-    text-shadow: 2px 2px 4px rgba(216, 170, 108, 0.7); 
+    text-shadow: 2px 2px 4px rgba(216, 170, 108, 0.7);
 }
 
-/* Logo Animation */
+/* Animation for logo hover effect */
 @keyframes hoverUpDown {
     0%, 100% {
         transform: translateY(0);
     }
+
     50% {
-        transform: translateY(-12px); 
+        transform: translateY(-12px);
     }
 }
 
+/* Apply hover animation */
 .hover-up-down {
     animation: hoverUpDown 2s ease-in-out infinite;
 }
 
+/* Landscape mode on smaller devices */
+@media (max-width: 950px) and (max-height: 500px) and (orientation: landscape) {
+    img {
+        display: none;
+    }
 
+    h1 {
+        padding-top: 70px;
+    }
+}
