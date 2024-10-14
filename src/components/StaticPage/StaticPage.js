@@ -2,7 +2,6 @@ import React from 'react';
 import './StaticPage.css';
 
 const StaticPage = () => {
-
     const handleEmailClick = () => {
         const email = "sponsors@ellehacks.com"; // Email Address
         const subject = "ElleHacks 2025 Sponsorship Inquiry"; // Email Subject
