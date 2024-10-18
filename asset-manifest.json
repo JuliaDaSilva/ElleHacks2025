@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.00993b66.css",
-    "main.js": "/ElleHacks2025/static/js/main.3fb295c2.js",
-    "static/js/453.962fd75e.chunk.js": "/ElleHacks2025/static/js/453.962fd75e.chunk.js",
-    "static/media/LondrinaSolid-Regular.ttf": "/ElleHacks2025/static/media/LondrinaSolid-Regular.7092156b21ecd7f84409.ttf",
-    "index.html": "/ElleHacks2025/index.html",
-    "main.00993b66.css.map": "/ElleHacks2025/static/css/main.00993b66.css.map",
-    "main.3fb295c2.js.map": "/ElleHacks2025/static/js/main.3fb295c2.js.map",
-    "453.962fd75e.chunk.js.map": "/ElleHacks2025/static/js/453.962fd75e.chunk.js.map"
+    "main.css": "/static/css/main.052bfa9f.css",
+    "main.js": "/static/js/main.d52ab535.js",
+    "static/js/453.962fd75e.chunk.js": "/static/js/453.962fd75e.chunk.js",
+    "static/media/LondrinaSolid-Regular.ttf": "/static/media/LondrinaSolid-Regular.7092156b21ecd7f84409.ttf",
+    "index.html": "/index.html",
+    "main.052bfa9f.css.map": "/static/css/main.052bfa9f.css.map",
+    "main.d52ab535.js.map": "/static/js/main.d52ab535.js.map",
+    "453.962fd75e.chunk.js.map": "/static/js/453.962fd75e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00993b66.css",
-    "static/js/main.3fb295c2.js"
+    "static/css/main.052bfa9f.css",
+    "static/js/main.d52ab535.js"
   ]
 }
