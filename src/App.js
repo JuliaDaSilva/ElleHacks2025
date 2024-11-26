@@ -1,26 +1,54 @@
+import React from 'react';
+import { HashRouter as Router } from 'react-router-dom';
+
 import './App.css';
 
-import Homepage from './components/Homepage/HomePage';
+import NavBar from './components/NavBar';
+import Homepage from './components/HomePage';
 import AboutUs from './components/AboutUs/AboutUs';
 import Sponsors from './components/Sponsors/Sponsors';
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
 import FAQ from './components/FAQ/FAQ';
 import Location from './components/Location/Location';
-import ContactUs from './components/ContactUs/ContactUs';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
+    <Router>
       <div className="App">
+        <NavBar />
+
+        <div id="home">
           <Homepage />
+        </div>
+
+        <div id="aboutus">
           <AboutUs />
+        </div>
+
+        <div id="sponsors">
           <Sponsors />
-          <MeetTheTeam />
+        </div>
+
+
+        <div id="faq">
           <FAQ />
+        </div>
+
+        <div id="meettheteam">
+          <MeetTheTeam />
+        </div>
+
+        <div id="location">
           <Location />
-          <ContactUs />
+        </div>
+
+        <div id="contactus">
           <Footer />
+        </div>
+
       </div>
+    </Router>
   );
 }
 
