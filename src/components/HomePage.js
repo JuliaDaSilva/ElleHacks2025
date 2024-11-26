@@ -29,8 +29,8 @@ const HomePage = () => {
                 </button>
 
                 {/* Bee SVG with responsive positioning */}
-                <Bee className="absolute top-[90px] right-[60px] w-41 h-41 z-10
-                       sm:top-[50px] sm:right-[110px] 
+                <Bee className="absolute top-[90px] right-[30px] w-41 h-41 z-10
+                       sm:top-[65px] sm:right-[110px] 
                        md:top-[-110px] md:right-[-325px] 
                        lg:top-[-110px] lg:right-[-325px]" />
             </div>
