@@ -6,14 +6,14 @@ import { ReactComponent as Bee } from "../assets/Homepage/Bee.svg";
 
 const HomePage = () => {
     return (
-        <div className="h-[75vh] flex flex-col items-center justify-center px-4 bg-[#FBF6EB]">
+        <div className="overflow-hidden h-[100vh] flex flex-col items-center justify-center px-4 bg-[#FBF6EB]">
             {/* Main Title */}
-            <h1 className="text-8xl md:text-9xl font-[Faustina] font-bold text-[#555F49] mb-2 z-10 select-none">
+            <h1 className="text-7xl md:text-9xl font-[Faustina] font-bold text-[#555F49] mb-2 z-10 select-none">
                 ElleHacks
             </h1>
 
             {/* Event Date */}
-            <p className="text-m sm:text-1xl md:text-2xl font-[InterSemiBold] text-black text-shadow mb-2 z-10 select-none">
+            <p className="text-sm sm:text-1xl md:text-2xl font-[InterSemiBold] text-black text-shadow mb-2 z-10 select-none">
                 February 14 - 16, 2025 <span className="text-sm sm:text-base">•</span>  In-person event
             </p>
 
