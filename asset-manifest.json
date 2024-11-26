@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.9789c623.css",
-    "main.js": "/ElleHacks2025/static/js/main.fca4c106.js",
+    "main.css": "/ElleHacks2025/static/css/main.6604a918.css",
+    "main.js": "/ElleHacks2025/static/js/main.e071fd24.js",
     "static/js/453.962fd75e.chunk.js": "/ElleHacks2025/static/js/453.962fd75e.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/ElleHacks2025/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/Inter_18pt-SemiBold.ttf": "/ElleHacks2025/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
@@ -9,12 +9,12 @@
     "static/media/Faustina-VariableFont_wght.ttf": "/ElleHacks2025/static/media/Faustina-VariableFont_wght.b86e67eed011bcf8255d.ttf",
     "static/media/Bee.svg": "/ElleHacks2025/static/media/Bee.23f9268ae1b10a904a172d7aef644d0c.svg",
     "index.html": "/ElleHacks2025/index.html",
-    "main.9789c623.css.map": "/ElleHacks2025/static/css/main.9789c623.css.map",
-    "main.fca4c106.js.map": "/ElleHacks2025/static/js/main.fca4c106.js.map",
+    "main.6604a918.css.map": "/ElleHacks2025/static/css/main.6604a918.css.map",
+    "main.e071fd24.js.map": "/ElleHacks2025/static/js/main.e071fd24.js.map",
     "453.962fd75e.chunk.js.map": "/ElleHacks2025/static/js/453.962fd75e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9789c623.css",
-    "static/js/main.fca4c106.js"
+    "static/css/main.6604a918.css",
+    "static/js/main.e071fd24.js"
   ]
 }
