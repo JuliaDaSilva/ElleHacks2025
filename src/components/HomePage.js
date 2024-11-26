@@ -6,9 +6,9 @@ import { ReactComponent as Bee } from "../assets/Homepage/Bee.svg";
 
 const HomePage = () => {
     return (
-        <div className="overflow-hidden h-[100vh] flex flex-col items-center justify-center px-4 bg-[#FBF6EB]">
+        <div className="overflow-hidden h-[100vh] flex flex-col items-center justify-center px-4 bg-[#FBF6EB] w-screen">
             {/* Main Title */}
-            <h1 className="text-7xl md:text-9xl font-[Faustina] font-bold text-[#555F49] mb-2 z-10 select-none">
+            <h1 className="text-7xl md:text-9xl font-[Faustina] font-bold text-[#555F49] mt-20 mb-2 z-10 select-none">
                 ElleHacks
             </h1>
 
@@ -30,7 +30,7 @@ const HomePage = () => {
 
                 {/* Bee SVG with responsive positioning */}
                 <Bee className="absolute top-[90px] right-[30px] w-41 h-41 z-10
-                       sm:top-[65px] sm:right-[110px] 
+                       sm:top-[64px] sm:right-[110px] 
                        md:top-[-110px] md:right-[-325px] 
                        lg:top-[-110px] lg:right-[-325px]" />
             </div>
