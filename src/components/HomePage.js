@@ -6,7 +6,7 @@ import { ReactComponent as Bee } from "../assets/Homepage/Bee.svg";
 
 const HomePage = () => {
     return (
-        <div className="overflow-hidden h-[100vh] flex flex-col items-center justify-center px-4 bg-[#FBF6EB] w-screen">
+        <div className="h-[100vh] flex flex-col items-center justify-center px-4 bg-[#FBF6EB] w-screen">
             {/* Main Title */}
             <h1 className="text-7xl md:text-9xl font-[Faustina] font-bold text-[#555F49] mt-20 mb-2 z-10 select-none">
                 ElleHacks
