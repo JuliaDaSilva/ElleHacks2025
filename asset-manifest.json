@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.643aabcb.css",
+    "main.css": "/ElleHacks2025/static/css/main.131136f7.css",
     "main.js": "/ElleHacks2025/static/js/main.67ece2a3.js",
     "static/js/453.962fd75e.chunk.js": "/ElleHacks2025/static/js/453.962fd75e.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/ElleHacks2025/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
@@ -10,12 +10,12 @@
     "static/media/Bee.svg": "/ElleHacks2025/static/media/Bee.23f9268ae1b10a904a172d7aef644d0c.svg",
     "static/media/MLHLogo.svg": "/ElleHacks2025/static/media/MLHLogo.67534f990d9556245b4d0dccad1c03f2.svg",
     "index.html": "/ElleHacks2025/index.html",
-    "main.643aabcb.css.map": "/ElleHacks2025/static/css/main.643aabcb.css.map",
+    "main.131136f7.css.map": "/ElleHacks2025/static/css/main.131136f7.css.map",
     "main.67ece2a3.js.map": "/ElleHacks2025/static/js/main.67ece2a3.js.map",
     "453.962fd75e.chunk.js.map": "/ElleHacks2025/static/js/453.962fd75e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.643aabcb.css",
+    "static/css/main.131136f7.css",
     "static/js/main.67ece2a3.js"
   ]
 }
