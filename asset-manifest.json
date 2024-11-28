@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.b1a626da.css",
-    "main.js": "/ElleHacks2025/static/js/main.c1fffb31.js",
+    "main.css": "/ElleHacks2025/static/css/main.04d6c78a.css",
+    "main.js": "/ElleHacks2025/static/js/main.4244b726.js",
     "static/js/453.962fd75e.chunk.js": "/ElleHacks2025/static/js/453.962fd75e.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/ElleHacks2025/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/Inter_18pt-SemiBold.ttf": "/ElleHacks2025/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
     "static/media/ElleHacksLogo.png": "/ElleHacks2025/static/media/ElleHacksLogo.97de4ed99804db28c9c2.png",
     "static/media/Faustina-VariableFont_wght.ttf": "/ElleHacks2025/static/media/Faustina-VariableFont_wght.b86e67eed011bcf8255d.ttf",
     "static/media/Bee.svg": "/ElleHacks2025/static/media/Bee.23f9268ae1b10a904a172d7aef644d0c.svg",
+    "static/media/MLHLogo.svg": "/ElleHacks2025/static/media/MLHLogo.67534f990d9556245b4d0dccad1c03f2.svg",
     "index.html": "/ElleHacks2025/index.html",
-    "main.b1a626da.css.map": "/ElleHacks2025/static/css/main.b1a626da.css.map",
-    "main.c1fffb31.js.map": "/ElleHacks2025/static/js/main.c1fffb31.js.map",
+    "main.04d6c78a.css.map": "/ElleHacks2025/static/css/main.04d6c78a.css.map",
+    "main.4244b726.js.map": "/ElleHacks2025/static/js/main.4244b726.js.map",
     "453.962fd75e.chunk.js.map": "/ElleHacks2025/static/js/453.962fd75e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1a626da.css",
-    "static/js/main.c1fffb31.js"
+    "static/css/main.04d6c78a.css",
+    "static/js/main.4244b726.js"
   ]
 }
