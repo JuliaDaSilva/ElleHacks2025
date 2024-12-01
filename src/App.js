@@ -7,10 +7,10 @@ import NavBar from './components/NavBar';
 import Homepage from './components/HomePage';
 import AboutUs from './components/AboutUs/AboutUs';
 import Sponsors from './components/Sponsors/Sponsors';
-import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
 import FAQ from './components/FAQ/FAQ';
 import Location from './components/Location/Location';
-import Footer from './components/Footer';
+import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -35,12 +35,12 @@ function App() {
           <FAQ />
         </div>
 
-        <div id="meettheteam">
-          <MeetTheTeam />
-        </div>
-
         <div id="location">
           <Location />
+        </div>
+
+        <div id="meettheteam">
+          <MeetTheTeam />
         </div>
 
         <div id="contactus">
