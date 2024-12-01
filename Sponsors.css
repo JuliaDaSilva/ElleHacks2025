@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    background-color: #ECEBCE;
+}
+
+.partner-with-us-section {
+    align-self: stretch;
+    margin-left: 100px;
+    background-color: #89987A;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    max-width: 900px;
+    text-align: center;
+    font-family: 'Faustina-SemiBold';
+}
+  
+/*Title Styling*/
+.section-title {
+    font-family: 'Faustina-SemiBold';
+    font-size: 80px;
+    font-weight: 600;
+    align-self: flex-start;
+    color: #555F49;
+    margin-left: 100px;
+    margin-bottom: 2px;
+}
+
+/* Subtitle Styling */
+.section-subtitle {
+    font-family: 'Faustina-SemiBold';
+    font-size: 32px;
+    align-self: flex-start;
+    color: #555F49;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.partner-form {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row {
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+.form-group {
+    flex-direction: column;
+    font-family: 'Faustina-SemiBold';
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Faustina-SemiBoldItalic';
+    font-size: 36px;
+    background-color: #FCF9F7;
+    color: #C0C0C0;
+}
+
+textarea {
+    resize: none;                     /* Disable resizing  */
+    height: 80px;
+    resize: vertical;
+}
+
+/* Submit button styling */
+.submit-button {
+    background-color: #555F49;
+    color: #FCF9F7;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Faustina-SemiBold';
+    font-size: 32px;
+    margin-top: -25px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #D8AA6C;
+    transform: scale(1.05);
+}
+
+/* Success message styling */
+.success-message {
+    font-family: 'Faustina-SemiBold';
+    font-weight: semibold;
+    margin-top: 15px;
+    color: #555F49;
+    font-size: 32px;
+}
