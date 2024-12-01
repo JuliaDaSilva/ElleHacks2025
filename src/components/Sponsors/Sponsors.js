@@ -3,7 +3,7 @@ import './Sponsors.css';
 
 function Sponsors() {
   return (
-    <div className="bg-[#D8AA6C] App">
+    <div className="bg-[#fcba03] App">
       <header className="App-header">
         <h1>Sponsors</h1>
       </header>
