@@ -5,7 +5,7 @@ import Bee from "../assets/Homepage/Bee.svg";
 
 const HeroSection = () => {
     return (
-        <section className="w-full h-screen sm:h-[80vh] bg-[#ECEBCE] select-none">
+        <section className="w-full h-screen sm:h-[80vh] bg-[#ECEBCE] select-none mt-20">
             {/* Mobile Layout */}
             <div className="flex flex-col items-center justify-center h-full sm:hidden px-6">
                 <h1 className="text-6xl font-['Faustina'] font-bold text-[#555F49] mb-2">ElleHacks 2025</h1>

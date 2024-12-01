@@ -23,7 +23,7 @@ function NavBar() {
     return (
         <div>
             {/* NavBar */}
-            <nav className="fixed top-0 left-0 right-0 bg-[#EDDEC9] bg-opacity-60 shadow-lg z-50">
+            <nav className="fixed top-0 left-0 right-0 bg-[#EDDEC9] bg-opacity-70 shadow-lg z-50">
 
                 {/* Desktop Menu */}
                 <div className="select-none max-w-screen-xl mx-auto px-6 py-3 flex justify-between items-center relative">
@@ -90,7 +90,7 @@ function NavBar() {
 
                 {/* Mobile Menu */}
                 {isMenuOpen && (
-                    <div className="lg:hidden absolute top-16 left-0 right-0 bg-[#EDDEC9] bg-opacity-60 py-4 px-6 shadow-lg">
+                    <div className="lg:hidden absolute top-16 left-0 right-0 bg-[#EDDEC9] bg-opacity-90 py-4 px-6 shadow-lg">
                         <ScrollLink to="home" spy smooth duration={500} className={`${linkText} block py-2`} onClick={closeMenu}>
                             Home
                         </ScrollLink>
