@@ -1,0 +1,92 @@
+/* FAQ Container Styling */
+.faq-container {
+    width: 100%;
+    max-width: 70vw;
+    margin: 50px auto;
+    background-color: #eceace;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* FAQ Title */
+  .faq-title {
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #555F49;
+    margin-bottom: 20px;
+  }
+  
+  /* FAQ Items Container */
+  .faq-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* FAQ Item */
+  .faq-item {
+    background-color: #9DAF87;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px #555F49;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+  
+  /* FAQ Header */
+  .faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect on Header */
+  .faq-item:hover {
+    transform: translateY(-5px); /* Slight upward lift */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* FAQ Icon */
+  .faq-icon {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent; /* Triangle base */
+    border-right: 7px solid transparent;
+    border-top: 10px solid #5C674E; /* Triangle color */
+    transition: transform 0.3s ease; /* Add a smooth rotation effect */
+  }
+  
+  /* Rotate the triangle downward when the FAQ is open */
+  .faq-item.active .faq-icon {
+    transform: rotate(180deg); /* Flip the triangle */
+  }
+  /* FAQ Answer */
+  .faq-answer {
+    padding: 15px 20px;
+    font-size: 0.9em;
+    color: #ffffff;
+    border-top: 1px solid #eceace;
+    line-height: 1.5;
+    animation: fadeIn 0.3s ease-in-out;
+    text-align: left;
+  }
+  
+  /* Fade-in Animation for Answers */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
