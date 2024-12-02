@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.1060e0fa.css",
-    "main.js": "/ElleHacks2025/static/js/main.531436bd.js",
+    "main.css": "/ElleHacks2025/static/css/main.b93bb179.css",
+    "main.js": "/ElleHacks2025/static/js/main.d153f61d.js",
     "static/js/453.34667fe0.chunk.js": "/ElleHacks2025/static/js/453.34667fe0.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/ElleHacks2025/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/Eloise_CreativeMedia.png": "/ElleHacks2025/static/media/Eloise_CreativeMedia.fc0a13592e32a47cdb04.png",
     "static/media/Sabriha_LogisticsDirector.png": "/ElleHacks2025/static/media/Sabriha_LogisticsDirector.e58167acb707bac25bb5.png",
     "static/media/Inter_18pt-SemiBold.ttf": "/ElleHacks2025/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
     "static/media/Misheel_LogisticsExecutive.png": "/ElleHacks2025/static/media/Misheel_LogisticsExecutive.28f265f09dbccfdab804.png",
-    "static/media/ElleHacksLogo.png": "/ElleHacks2025/static/media/ElleHacksLogo.97de4ed99804db28c9c2.png",
     "static/media/Bohina_Co-Chair.png": "/ElleHacks2025/static/media/Bohina_Co-Chair.bf01a3d3716c265cbc44.png",
     "static/media/Faustina-VariableFont_wght.ttf": "/ElleHacks2025/static/media/Faustina-VariableFont_wght.b86e67eed011bcf8255d.ttf",
     "static/media/Bee.svg": "/ElleHacks2025/static/media/Bee.23f9268ae1b10a904a172d7aef644d0c.svg",
+    "static/media/ElleHacksLogo.png": "/ElleHacks2025/static/media/ElleHacksLogo.0f856f36cd692c64133a.png",
     "static/media/Rayyan_ITExecutive.jpg": "/ElleHacks2025/static/media/Rayyan_ITExecutive.34fa41388d3c498299ee.jpg",
     "static/media/Kristin_LogisticsExecutive.jpg": "/ElleHacks2025/static/media/Kristin_LogisticsExecutive.77fe596158ddc4c5c605.jpg",
     "static/media/Triya_Co-Chair.jpg": "/ElleHacks2025/static/media/Triya_Co-Chair.cf18f6d6e9751e232632.jpg",
@@ -27,6 +27,7 @@
     "static/media/Madeleine_ITExecutive.jpg": "/ElleHacks2025/static/media/Madeleine_ITExecutive.de911f61c8f2155274b1.jpg",
     "static/media/James_LogisticsExec.jpg": "/ElleHacks2025/static/media/James_LogisticsExec.3590924151a49fc98a05.jpg",
     "static/media/Natalie_ITExecutive.jpg": "/ElleHacks2025/static/media/Natalie_ITExecutive.95a25ceaf1d50708100f.jpg",
+    "static/media/Khushi_ITExecutive.jpg": "/ElleHacks2025/static/media/Khushi_ITExecutive.302706e4c37f2c4de0b0.jpg",
     "static/media/Harper - Social Med & Outreach.jpg": "/ElleHacks2025/static/media/Harper - Social Med & Outreach.22d71194b499bc8c1aa0.jpg",
     "static/media/Sidney_SponsorshipDirector.jpg": "/ElleHacks2025/static/media/Sidney_SponsorshipDirector.91b691c0b3a23d2f7832.jpg",
     "static/media/Anagha_SponsorshipExecutive.jpg": "/ElleHacks2025/static/media/Anagha_SponsorshipExecutive.f59d033d3d5dde55ccf8.jpg",
@@ -44,12 +45,12 @@
     "static/media/Assem_LogisticsExec.jpg": "/ElleHacks2025/static/media/Assem_LogisticsExec.5eeae6778787030acd75.jpg",
     "static/media/MLHLogo.svg": "/ElleHacks2025/static/media/MLHLogo.8261e3546ea35af76567d202c39baf4e.svg",
     "index.html": "/ElleHacks2025/index.html",
-    "main.1060e0fa.css.map": "/ElleHacks2025/static/css/main.1060e0fa.css.map",
-    "main.531436bd.js.map": "/ElleHacks2025/static/js/main.531436bd.js.map",
+    "main.b93bb179.css.map": "/ElleHacks2025/static/css/main.b93bb179.css.map",
+    "main.d153f61d.js.map": "/ElleHacks2025/static/js/main.d153f61d.js.map",
     "453.34667fe0.chunk.js.map": "/ElleHacks2025/static/js/453.34667fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1060e0fa.css",
-    "static/js/main.531436bd.js"
+    "static/css/main.b93bb179.css",
+    "static/js/main.d153f61d.js"
   ]
 }
