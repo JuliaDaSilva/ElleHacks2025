@@ -5,10 +5,10 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import Homepage from './components/HomePage';
-import AboutUs from './components/AboutUs/AboutUs';
-import Sponsors from './components/Sponsors/Sponsors';
+import AboutUs from './components/AboutUs';
+import Sponsors from './components/Sponsors';
 import FAQ from './components/FAQ/FAQ';
-import Location from './components/Location/Location';
+import Location from './components/Location';
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
 import Footer from './components/Footer/Footer';
 
@@ -29,7 +29,6 @@ function App() {
         <div id="sponsors">
           <Sponsors />
         </div>
-
 
         <div id="faq">
           <FAQ />
