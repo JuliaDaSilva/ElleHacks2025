@@ -5,9 +5,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  width: 100%; /* Ensure full width */
-  height: 100%; /* Ensure full height */
-  overflow-x: hidden; /* Prevent horizontal scrolling if content overflows */
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
 }
 
 body {
@@ -21,7 +21,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-/* Optional: to ensure #root element also uses full width */
 #root {
   width: 100%;
   height: 100%;
