@@ -15,6 +15,8 @@ import Rayyan from '../../assets/MeetTheTeam/IT/Rayyan_ITExecutive.jpg';
 import Natalie from '../../assets/MeetTheTeam/IT/Natalie_ITExecutive.jpg';
 import Madeleine from '../../assets/MeetTheTeam/IT/Madeleine_ITExecutive.jpg';
 import Trinity from '../../assets/MeetTheTeam/IT/Trinity_ITExecutive .jpg';
+//import Hyunji from '../../assets/MeetTheTeam/IT/Hyunji_ITExecutive.jpg';
+import Khushi from '../../assets/MeetTheTeam/IT/Khushi_ITExecutive.jpg';
 
 // Logistics Team Pictures
 import Sabriha from '../../assets/MeetTheTeam/Logistics/Sabriha_LogisticsDirector.png';
@@ -62,7 +64,7 @@ const teams = {
     { name: 'Natalie Lewis', title: 'IT Executive', image: Natalie},
     { name: 'Madeleine Falcon', title: 'IT Executive', image: Madeleine },
     { name: 'Trinity Mae Robel', title: 'IT Executive', image: Trinity},
-    { name: 'Khushi Jain', title: 'IT Executive', image: Filler },
+    { name: 'Khushi Jain', title: 'IT Executive', image: Khushi},
     { name: 'Hyunji Yun (Hailey)', title: 'IT Executive', image: Filler },
   ],
   logistics1: [

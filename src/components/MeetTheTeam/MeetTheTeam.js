@@ -30,9 +30,9 @@ function MeetTheTeam() {
   const teamName = teamNameMapping[currentTeamKey] || currentTeamKey;
 
   return (
-    <div className="flex flex-col items-center min-h-screen p-6 font-[Faustina] text-[#545353] select-none">
+    <div className="flex flex-col items-center p-6 font-[Faustina] text-[#545353] select-none">
       {/* Container for content */}
-      <div className="w-full max-w-6xl">
+      <div className="w-full max-w-screen-xl px-4">
         <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-left text-[#555F49] font-bold">
           Meet The Team
         </h2>
@@ -41,7 +41,7 @@ function MeetTheTeam() {
         </h2>
 
         {/* Team Members */}
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
           {currentTeamMembers.map((member, index) => (
             <TeamMember
               key={index}
@@ -53,12 +53,12 @@ function MeetTheTeam() {
         </div>
 
         {/* Navigation */}
-        <div className="flex justify-center items-center mt-8">
+        <div className="flex justify-center items-center font-[Faustina] text-[#555F49]">
           <button
-            className="bg-gray-300 p-2 rounded-full hover:bg-gray-400"
+            className="p-2 rounded-full hover:bg-[#D8AA6C] w-8 h-8 flex justify-center items-center"
             onClick={prevTeam}
           >
-            &larr;
+            <div className="w-0 h-0 border-t-[8px] border-t-transparent border-r-[12px] border-r-current border-b-[8px] border-b-transparent"></div>
           </button>
 
           <span className="text-xl mx-4">
@@ -66,12 +66,14 @@ function MeetTheTeam() {
           </span>
 
           <button
-            className="bg-gray-300 p-2 rounded-full hover:bg-gray-400"
+            className="p-2 rounded-full hover:bg-[#D8AA6C] w-8 h-8 flex justify-center items-center"
             onClick={nextTeam}
           >
-            &rarr;
+            <div className="w-0 h-0 border-t-[8px] border-t-transparent border-l-[12px] border-l-current border-b-[8px] border-b-transparent"></div>
           </button>
         </div>
+
+
       </div>
     </div>
   );
