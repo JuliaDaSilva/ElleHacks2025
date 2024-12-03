@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.282c4b96.css",
-    "main.js": "/ElleHacks2025/static/js/main.d153f61d.js",
+    "main.css": "/ElleHacks2025/static/css/main.733d6adc.css",
+    "main.js": "/ElleHacks2025/static/js/main.8faa8869.js",
     "static/js/453.34667fe0.chunk.js": "/ElleHacks2025/static/js/453.34667fe0.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/ElleHacks2025/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/Eloise_CreativeMedia.png": "/ElleHacks2025/static/media/Eloise_CreativeMedia.fc0a13592e32a47cdb04.png",
@@ -13,8 +13,10 @@
     "static/media/Bee.svg": "/ElleHacks2025/static/media/Bee.23f9268ae1b10a904a172d7aef644d0c.svg",
     "static/media/ElleHacksLogo.png": "/ElleHacks2025/static/media/ElleHacksLogo.0f856f36cd692c64133a.png",
     "static/media/Rayyan_ITExecutive.jpg": "/ElleHacks2025/static/media/Rayyan_ITExecutive.34fa41388d3c498299ee.jpg",
+    "static/media/Lassonde.png": "/ElleHacks2025/static/media/Lassonde.908cb26d7dbfeeb3dfa7.png",
     "static/media/Kristin_LogisticsExecutive.jpg": "/ElleHacks2025/static/media/Kristin_LogisticsExecutive.77fe596158ddc4c5c605.jpg",
     "static/media/Triya_Co-Chair.jpg": "/ElleHacks2025/static/media/Triya_Co-Chair.cf18f6d6e9751e232632.jpg",
+    "static/media/Hailey_ITExecutive.jpg": "/ElleHacks2025/static/media/Hailey_ITExecutive.782c7c3b80db5f0285c0.jpg",
     "static/media/Katsa_Marketing.jpg": "/ElleHacks2025/static/media/Katsa_Marketing.24b9aed675f5e0ccdd29.jpg",
     "static/media/Brianna_SponsorshipExecutive.jpg": "/ElleHacks2025/static/media/Brianna_SponsorshipExecutive.835fcada939531c06304.jpg",
     "static/media/Logo_Filler.png": "/ElleHacks2025/static/media/Logo_Filler.56ae8eb30ccb87e56b82.png",
@@ -27,6 +29,7 @@
     "static/media/Madeleine_ITExecutive.jpg": "/ElleHacks2025/static/media/Madeleine_ITExecutive.de911f61c8f2155274b1.jpg",
     "static/media/James_LogisticsExec.jpg": "/ElleHacks2025/static/media/James_LogisticsExec.3590924151a49fc98a05.jpg",
     "static/media/Natalie_ITExecutive.jpg": "/ElleHacks2025/static/media/Natalie_ITExecutive.95a25ceaf1d50708100f.jpg",
+    "static/media/P&G.png": "/ElleHacks2025/static/media/P&G.967953fa06ec6489b9bc.png",
     "static/media/Khushi_ITExecutive.jpg": "/ElleHacks2025/static/media/Khushi_ITExecutive.302706e4c37f2c4de0b0.jpg",
     "static/media/Harper - Social Med & Outreach.jpg": "/ElleHacks2025/static/media/Harper - Social Med & Outreach.22d71194b499bc8c1aa0.jpg",
     "static/media/Sidney_SponsorshipDirector.jpg": "/ElleHacks2025/static/media/Sidney_SponsorshipDirector.91b691c0b3a23d2f7832.jpg",
@@ -42,15 +45,19 @@
     "static/media/Ann_Marketing.jpg": "/ElleHacks2025/static/media/Ann_Marketing.bbe98f5b6c297555867c.jpg",
     "static/media/Julia_ITDirector.jpg": "/ElleHacks2025/static/media/Julia_ITDirector.b2ecb35a9d6d144f70bb.jpg",
     "static/media/Aditi_LogisticsExecutive.jpg": "/ElleHacks2025/static/media/Aditi_LogisticsExecutive.072094fc90f7e03bb643.jpg",
+    "static/media/Brampton_Innovation.png": "/ElleHacks2025/static/media/Brampton_Innovation.9e173eb9509eb5018004.png",
+    "static/media/Scotiabank.png": "/ElleHacks2025/static/media/Scotiabank.80ffdc2d77a56da484c6.png",
+    "static/media/CSE_CST.png": "/ElleHacks2025/static/media/CSE_CST.0e4f886bd1925f10c749.png",
     "static/media/Assem_LogisticsExec.jpg": "/ElleHacks2025/static/media/Assem_LogisticsExec.5eeae6778787030acd75.jpg",
+    "static/media/KPM.png": "/ElleHacks2025/static/media/KPM.2399fd876691a3670a60.png",
     "static/media/MLHLogo.svg": "/ElleHacks2025/static/media/MLHLogo.8261e3546ea35af76567d202c39baf4e.svg",
     "index.html": "/ElleHacks2025/index.html",
-    "main.282c4b96.css.map": "/ElleHacks2025/static/css/main.282c4b96.css.map",
-    "main.d153f61d.js.map": "/ElleHacks2025/static/js/main.d153f61d.js.map",
+    "main.733d6adc.css.map": "/ElleHacks2025/static/css/main.733d6adc.css.map",
+    "main.8faa8869.js.map": "/ElleHacks2025/static/js/main.8faa8869.js.map",
     "453.34667fe0.chunk.js.map": "/ElleHacks2025/static/js/453.34667fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.282c4b96.css",
-    "static/js/main.d153f61d.js"
+    "static/css/main.733d6adc.css",
+    "static/js/main.8faa8869.js"
   ]
 }
