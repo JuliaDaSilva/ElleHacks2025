@@ -10,7 +10,7 @@ import Sponsors from './components/Sponsors';
 import FAQ from './components/FAQ/FAQ';
 import Location from './components/Location';
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (

@@ -61,23 +61,56 @@ const FAQ = () => {
       answer: "No."
     }
   ];
-  
   return (
-    <div className="faq-container select-none">
-      <h1 className="faq-title">FAQ</h1>
-      <div className="faq-items">
-        {faqData.map((faq, index) => (
-          <div key={index} className={`faq-item ${openIndex === index ? "active" : ""}`}>
-            <div className="faq-header" onClick={() => toggleFAQ(index)}>
-              <span className="faq-question">{faq.question}</span>
-              <span className="faq-icon"></span>
+    <>
+      <div className="font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 select-none w-full max-w-screen-xl">
+        <h2 className="text-5xl md:text-5xl lg:text-6xl mb-4 text-left text-[#555F49] font-bold">
+          FAQ
+        </h2>
+      </div >
+
+      <div className="select-none mx-auto lg:mx-20 xl:mx-64 mb-32 select-none max-w-screen-xl bg-[#eceace] rounded-2xl p-6 shadow-lg">
+        {/* Container for FAQ items, arranged in a vertical layout with a gap between items */}
+        <div className="flex flex-col gap-3">
+
+          {/* Mapping over the faqData array to create each FAQ item */}
+          {faqData.map((faq, index) => (
+
+            // FAQ item container with dynamic classes based on whether the FAQ is open or closed
+            <div
+              key={index}
+              className={`bg-[#9DAF87] ${openIndex === index ? 'rounded-3xl' : 'rounded-[40px]'} shadow-lg overflow-hidden transition-all duration-300 ease-in-out text-left ${openIndex === index ? 'active' : ''} transition-none`}
+            >
+
+              {/* Header of the FAQ item, clickable to toggle the answer visibility */}
+              <div
+                className="flex justify-between items-center cursor-pointer px-4 py-3 sm:py-4 text-white font-medium transition-colors duration-300 ease-in-out"
+                onClick={() => toggleFAQ(index)} // Toggles the FAQ open/close state
+              >
+
+                {/* Displaying the question text */}
+                <span className="text-sm sm:text-lg">{faq.question}</span>
+
+                {/* Icon that rotates based on whether the FAQ is open or closed */}
+                <span
+                  className={`faq-icon w-0 h-0 border-l-[7px] border-r-[7px] border-t-[10px] border-t-[#5C674E] border-l-transparent border-r-transparent transition-transform duration-300 ease-in-out ${openIndex === index ? 'rotate-180' : ''}`}
+                ></span>
+              </div>
+
+              {/* Displaying the answer only if the FAQ is open */}
+              {openIndex === index && (
+                <div className="px-4 py-3 text-white text-sm leading-relaxed border-t border-[#eceace] rounded-b-2xl">
+                  {faq.answer}
+                </div>
+              )}
             </div>
-            {openIndex === index && <div className="faq-answer">{faq.answer}</div>}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
+
+
 };
 
 export default FAQ;

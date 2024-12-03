@@ -21,7 +21,7 @@ const HeroSection = () => {
             </div>
 
             {/* Desktop Layout */}
-            <div className="hidden sm:flex items-center justify-start h-full px-5 sm:px-12 lg:px-24 xl:px-36">
+            <div className="hidden sm:flex items-center justify-start h-full px-5 sm:px-12 lg:px-24 xl:px-36 xl:mx-64 ">
                 <div className="text-left ml-6 max-w-screen-xl">
                     {/* Main title */}
                     <h1 className="sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-['Faustina'] font-bold text-[#555F49] mb-3">
