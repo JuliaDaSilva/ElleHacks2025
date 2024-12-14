@@ -63,7 +63,7 @@ const FAQ = () => {
   ];
   return (
     <>
-      <div className="font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 select-none w-full max-w-screen-xl">
+      <div className="mt-20 font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 select-none w-full max-w-screen-xl">
         <h2 className="text-5xl md:text-5xl lg:text-6xl mb-4 text-left text-[#555F49] font-bold">
           FAQ
         </h2>

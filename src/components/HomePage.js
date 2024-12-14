@@ -5,7 +5,7 @@ import Bee from "../assets/Homepage/Bee.svg";
 
 const HeroSection = () => {
     return (
-        <section className="w-full h-screen sm:h-[80vh] bg-[#ECEBCE] select-none mt-20">
+        <section className="relative w-full h-screen bg-[#ECEBCE] select-none overflow-hidden">
             {/* Mobile Layout */}
             <div className="flex flex-col items-center justify-center h-full sm:hidden px-6">
                 <h1 className="text-6xl font-['Faustina'] font-bold text-[#555F49] mb-2">ElleHacks 2025</h1>
@@ -13,7 +13,7 @@ const HeroSection = () => {
 
                 {/* Logo and "Official Member" Text */}
                 <a href="https://mlh.io/seasons/2025/events" target="_blank" rel="noopener noreferrer" className="flex items-center no-underline">
-                    <img src={MLHLogo} alt="MLH Logo" className="mr-2 w-11 h-11 -mb-1" />
+                    <img src={MLHLogo} alt="MLH Logo" className="mr-2 w-11 h-11 mb-1" />
                     <span className="font-['Faustina'] text-xl font-semibold text-[#555F49] no-underline">Official Member</span>
                 </a>
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
             </div>
 
             {/* Desktop Layout */}
-            <div className="hidden sm:flex items-center justify-start h-full px-5 sm:px-12 lg:px-24 xl:px-36 xl:mx-64 ">
+            <div className="relative z-10 hidden sm:flex items-center justify-start h-full px-5 sm:px-12 lg:px-24 xl:px-36 xl:mx-64 ">
                 <div className="text-left ml-6 max-w-screen-xl">
                     {/* Main title */}
                     <h1 className="sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-['Faustina'] font-bold text-[#555F49] mb-3">
@@ -44,6 +44,7 @@ const HeroSection = () => {
                         </a>
                     </div>
                 </div>
+
                 {/* Bee image */}
                 <img
                     src={Bee}
@@ -54,8 +55,8 @@ const HeroSection = () => {
                     lg:w-[326.44px] lg:top-[-100px]
                     xl:top-[-120px] xl:right-[90px]"
                 />
-
             </div>
+
         </section>
     );
 };

@@ -3,7 +3,7 @@ import "../fonts/fonts.css";
 
 function Location() {
   return (
-    <div className="flex justify-center items-center font-[Faustina] p-5 bg-[#899878] text-[#EDDEC9] select-none">
+    <div className="flex justify-center items-center font-[Faustina] p-5 bg-[#899878] text-[#EDDEC9] select-none mt-20">
       <div className="w-full max-w-[1050px] text-white">
 
         {/* Content Section */}

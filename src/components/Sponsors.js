@@ -20,7 +20,7 @@ import ySpace from '../assets/Sponsors/yspace.png';
 
 function Sponsors() {
   return (
-    <div className="font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 mb-32 select-none w-full max-w-screen-xl">
+    <div className="mt-20 font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 mb-32 select-none w-full max-w-screen-xl">
       <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4 text-left text-[#555F49] font-bold">
         Last Year's Sponsors!
       </h2>

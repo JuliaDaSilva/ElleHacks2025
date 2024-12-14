@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import TeamMember from "./TeamMember";
 import teams from "./teamData";
 import "../../fonts/fonts.css";
+import PlantL from "../../assets/MeetTheTeam/PlantL.png";
+import PlantR from "../../assets/MeetTheTeam/PlantR.png";
 
 const teamNameMapping = {
   coChairs: "Co-Chairs",
@@ -30,9 +32,23 @@ function MeetTheTeam() {
   const teamName = teamNameMapping[currentTeamKey] || currentTeamKey;
 
   return (
-    <div className="flex flex-col items-center p-6 font-[Faustina] text-[#545353] select-none">
-      {/* Container for content */}
-      <div className="w-full max-w-screen-xl px-4">
+
+    <div className="flex flex-col items-center justify-center min-h-screen relative p-6 font-[Faustina] text-[#545353] select-none overflow-hidden">
+      {/* Background Plants */}
+      <img
+        src={PlantL}
+        alt="Top Left"
+        className="absolute top-[-60px] md:top-[-60px] lg:top-0 left-0 z-0  lg:w-[420px]"
+      />
+
+      <img
+        src={PlantR}
+        alt="Bottom Right"
+        className="absolute bottom-20 right-0 h-auto z-0 lg:w-[420px]"
+      />
+
+      {/* Meet The Team Container */}
+      <div className="w-full max-w-screen-xl px-4 z-1">
         <h2 className="text-4xl sm:text-5xl md:text-6xl mb-4 text-left text-[#555F49] font-bold">
           Meet The Team
         </h2>
@@ -52,24 +68,24 @@ function MeetTheTeam() {
           ))}
         </div>
 
-        {/* Navigation */}
-        <div className="flex justify-center items-center font-[Faustina] text-[#555F49]">
+        {/* Team Navigation Buttons */}
+        <div className="absolute bottom-6 left-0 right-0 flex justify-center items-center font-[Faustina] text-[#555F49] z-10 lg:relative lg:bottom-auto sm:flex-row sm:space-x-4">
           <button
-            className="p-2 rounded-full hover:bg-[#D8AA6C] w-8 h-8 flex justify-center items-center"
+            className="p-5 rounded-full w-10 h-10 flex justify-center items-center"
             onClick={prevTeam}
           >
-            <div className="w-0 h-0 border-t-[8px] border-t-transparent border-r-[12px] border-r-current border-b-[8px] border-b-transparent"></div>
+            <div className="w-0 h-0 border-t-[16px] border-t-transparent border-r-[24px] border-r-current border-b-[16px] border-b-transparent"></div>
           </button>
 
-          <span className="text-xl mx-4">
+          <span className="text-2xl mx-4">
             {currentTeamIndex + 1} / {teamKeys.length}
           </span>
 
           <button
-            className="p-2 rounded-full hover:bg-[#D8AA6C] w-8 h-8 flex justify-center items-center"
+            className="p-3 rounded-full w-16 h-16 flex justify-center items-center"
             onClick={nextTeam}
           >
-            <div className="w-0 h-0 border-t-[8px] border-t-transparent border-l-[12px] border-l-current border-b-[8px] border-b-transparent"></div>
+            <div className="w-0 h-0 border-t-[16px] border-t-transparent border-l-[24px] border-l-current border-b-[16px] border-b-transparent"></div>
           </button>
         </div>
 
@@ -77,6 +93,7 @@ function MeetTheTeam() {
       </div>
     </div>
   );
+
 }
 
 export default MeetTheTeam;
