@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ElleHacks2025/static/css/main.319f33d4.css",
+    "main.css": "/ElleHacks2025/static/css/main.d2b21c57.css",
     "main.js": "/ElleHacks2025/static/js/main.1210bb25.js",
     "static/js/453.34667fe0.chunk.js": "/ElleHacks2025/static/js/453.34667fe0.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/ElleHacks2025/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
@@ -58,12 +58,12 @@
     "static/media/KPM.png": "/ElleHacks2025/static/media/KPM.2399fd876691a3670a60.png",
     "static/media/MLHLogo.svg": "/ElleHacks2025/static/media/MLHLogo.67534f990d9556245b4d0dccad1c03f2.svg",
     "index.html": "/ElleHacks2025/index.html",
-    "main.319f33d4.css.map": "/ElleHacks2025/static/css/main.319f33d4.css.map",
+    "main.d2b21c57.css.map": "/ElleHacks2025/static/css/main.d2b21c57.css.map",
     "main.1210bb25.js.map": "/ElleHacks2025/static/js/main.1210bb25.js.map",
     "453.34667fe0.chunk.js.map": "/ElleHacks2025/static/js/453.34667fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.319f33d4.css",
+    "static/css/main.d2b21c57.css",
     "static/js/main.1210bb25.js"
   ]
 }
