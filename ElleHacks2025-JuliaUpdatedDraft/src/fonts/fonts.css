@@ -1,0 +1,22 @@
+/* Imported fonts */
+
+@font-face {
+    font-family: 'Faustina';
+    src: url('Faustina-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

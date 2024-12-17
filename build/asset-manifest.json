@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ElleHacks2025/static/css/main.d912f7dd.css",
+    "main.js": "/ElleHacks2025/static/js/main.c73a359c.js",
+    "static/js/453.962fd75e.chunk.js": "/ElleHacks2025/static/js/453.962fd75e.chunk.js",
+    "static/media/LondrinaSolid-Regular.ttf": "/ElleHacks2025/static/media/LondrinaSolid-Regular.7092156b21ecd7f84409.ttf",
+    "index.html": "/ElleHacks2025/index.html",
+    "main.d912f7dd.css.map": "/ElleHacks2025/static/css/main.d912f7dd.css.map",
+    "main.c73a359c.js.map": "/ElleHacks2025/static/js/main.c73a359c.js.map",
+    "453.962fd75e.chunk.js.map": "/ElleHacks2025/static/js/453.962fd75e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d912f7dd.css",
+    "static/js/main.c73a359c.js"
+  ]
+}
