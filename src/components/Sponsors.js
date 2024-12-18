@@ -50,7 +50,7 @@ function Sponsors() {
         </h2> */}
         <div className="flex flex-wrap gap-4 mb-8 justify-center">
           <div className="w-80 h-50 md:w-96 md:h-96 bg-white rounded-full flex justify-center items-center">
-            <img src={KPM} alt="Bronze Sponsor" className="h-48 object-contain" />
+            <img src={KPM} alt="Bronze Sponsor" className="h-40 object-contain" />
           </div>
          </div>
         </div>
