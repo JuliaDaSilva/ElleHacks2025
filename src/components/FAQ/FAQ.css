@@ -1,0 +1,5 @@
+/* Rotate the triangle downward when the FAQ is open */
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
