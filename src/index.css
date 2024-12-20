@@ -1,0 +1,19 @@
+/* Reset some default browser styles, this is where general styles for the entire app go */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;  /* Set a clean, default font */
+  background-color: #f0f0f0;         /* Light grey background */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;                 /* Ensure app takes full viewport height */
+}
+
+h1, h2, p {
+  margin: 0;
+}

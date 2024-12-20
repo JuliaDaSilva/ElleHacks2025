@@ -1,0 +1,23 @@
+/* App.css */
+
+/* Body and General App Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;   /* Keep clean, readable fonts */
+  background-color: #f0f0f0;          /* Light grey background */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;                  /* Full viewport height */
+  background-color: #eddec9;          /* Light beige background for consistency */
+}
+
+h1, h2, p {
+  margin: 0;
+  color: #3f7789;                     /* Deep teal for headings */
+}

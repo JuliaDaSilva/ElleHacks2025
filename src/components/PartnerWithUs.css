@@ -1,0 +1,90 @@
+/*Overall section styling*/
+
+.partner-with-us-section{
+  background-color: #eddec9;         /* Light beige background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px;
+  margin: 0 auto;
+  /*display:flex;
+  height: 100vh;*/
+}
+
+/*Title Styling*/
+.section-title {
+    font-size: 28px;
+    color: black;                   /* Deep teal for the title */
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Subtitle Styling */
+.section-subtitle {
+    font-size: 16px;
+    color: black;                   /* Dark gray for the subtitle */
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', serif;
+}
+
+  /* Form styling */
+.partner-form {
+    display: flex;
+    flex-direction: column;           /* Stack form elements vertically */
+    gap: 15px;                        /* Add spacing between form elements */
+}
+
+  /* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Label styling */
+label {
+    font-size: 14px;
+    color: #3f7789;                   /* Deep teal for labels */
+    margin-bottom: 5px;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    padding: 10px;
+    border: 1px solid #899878;        /* Muted green for input border */
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #eddec9;        /* Light beige for input background */
+    color: #545353;                   /* Dark gray for text */
+}
+
+textarea {
+    height: 100px;
+    resize: none;                     /* Disable resizing */
+}
+
+/* Submit button styling */
+.submit-button {
+    background-color: #d17f90;        /* Soft pink for the submit button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #d8aa6c;        /* Warm gold on hover */
+}
+
+/* Success message styling */
+.success-message {
+    margin-top: 20px;
+    color: #3f7789;                   /* Deep teal for success message */
+    text-align: center;
+    font-size: 16px;
+}
